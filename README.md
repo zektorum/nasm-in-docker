@@ -5,7 +5,7 @@
 git clone https://github.com/zektorum/nasm-in-docker.git
 cd nasm-in-docker
 ```
-2. Копируем файл с исходным кодом на ассамблере в директорию `nasm-in-docker`:
+2. Копируем файл с исходным кодом на ассемблере в директорию `nasm-in-docker`:
 ```
 cp /path/to/file.asm /path/to/nasm-in-docker
 ```
