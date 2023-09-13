@@ -15,6 +15,6 @@ docker build -t nasm .
 ```
 4. Запускаем его. Название файла с исходным кодом передаём как переменную окружения:
 ```
-docker run -e FILENAME=file.asm nasm
+docker run -v $(pwd):/opt/asm -e FILENAME=file.asm nasm
 ```
-
+Для пересборки и запуска после изменений повторите пункт 4.
