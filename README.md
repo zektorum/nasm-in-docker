@@ -1,4 +1,8 @@
 # nasm-in-docker
+## Подготовка
+Необходимо установить Docker:
+
+https://docs.docker.com/desktop/install/mac-install/
 ## Сборка и запуск
 1. Клонируем репозиторий и переходим в директорию с проектом:
 ```
